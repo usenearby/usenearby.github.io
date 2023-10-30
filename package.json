@@ -1,5 +1,5 @@
 {
-  "name": "usenearby",
+  "name": "nearby",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,12 +8,11 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "classnames": "^2.3.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +37,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.4"
   }
 }
