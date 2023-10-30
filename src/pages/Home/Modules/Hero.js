@@ -1,4 +1,6 @@
-import { Button, Header } from 'components';
+import React from 'react';
+
+import { Button, Header } from '../../../components';
 
 const Hero = () => {
   return (
@@ -54,7 +56,7 @@ const Hero = () => {
                   id pariatur in voluptate cillum.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                  <Button type="primary">Get started</Button>
+                  <Button type="primary" className="h-10 px-6 text-sm text-white bg-brandBlue hover:bg-brandBlue/80 disabled:bg-gray-400">Get started</Button>
                 </div>
               </div>
               <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

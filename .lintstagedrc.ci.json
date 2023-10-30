@@ -1,3 +1,0 @@
-{
-  "*.{ts,tsx}": ["prettier --list-different", "eslint --quiet \"**/*.{ts,tsx}\""]
-}

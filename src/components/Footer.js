@@ -1,5 +1,6 @@
-const Footer = () => {
+import React from 'react';
 
+const Footer = () => {
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">

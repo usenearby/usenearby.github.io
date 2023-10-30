@@ -1,5 +1,6 @@
-import { Footer } from 'components';
+import React from 'react';
 
+import { Footer } from '../../components';
 import CenteredFeature from './Modules/CenteredFeature';
 import Feature from './Modules/Feature';
 import Hero from './Modules/Hero';

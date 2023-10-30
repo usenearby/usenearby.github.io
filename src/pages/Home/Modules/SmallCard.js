@@ -1,4 +1,6 @@
-import { Button } from 'components';
+import React from 'react';
+
+import { Button } from '../../../components';
 
 const SmallCard = () => {
   return (
