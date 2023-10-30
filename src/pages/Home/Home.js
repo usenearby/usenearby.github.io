@@ -5,6 +5,8 @@ import CenteredFeature from './Modules/CenteredFeature';
 import Feature from './Modules/Feature';
 import Hero from './Modules/Hero';
 import SmallCard from './Modules/SmallCard';
+import FeatureLeft from "./Modules/FeatureLeft";
+import FeatureRight from "./Modules/FeatureRight";
 
 const Home = () => {
   return (
@@ -13,8 +15,8 @@ const Home = () => {
       <CenteredFeature />
       <Feature />
       <Feature order />
-      <Feature />
-      <Feature order />
+      <FeatureLeft />
+      <FeatureRight />
       <SmallCard />
       <Footer />
     </>
