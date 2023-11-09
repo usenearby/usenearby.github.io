@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8fe4490.css",
-    "main.js": "/static/js/main.41c38504.js",
-    "static/media/app-screen-shot.jpg": "/static/media/app-screen-shot.a4efe7ceac1bb21b9107.jpg",
-    "static/media/nearby-logo.svg": "/static/media/nearby-logo.12126a588bb25d4028fdcdf0afb1d1a8.svg",
+    "main.css": "/static/css/main.2363af52.css",
+    "main.js": "/static/js/main.4e685800.js",
     "index.html": "/index.html",
-    "main.c8fe4490.css.map": "/static/css/main.c8fe4490.css.map",
-    "main.41c38504.js.map": "/static/js/main.41c38504.js.map"
+    "main.2363af52.css.map": "/static/css/main.2363af52.css.map",
+    "main.4e685800.js.map": "/static/js/main.4e685800.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8fe4490.css",
-    "static/js/main.41c38504.js"
+    "static/css/main.2363af52.css",
+    "static/js/main.4e685800.js"
   ]
 }
