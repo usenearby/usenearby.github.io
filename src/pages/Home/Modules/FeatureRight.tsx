@@ -1,7 +1,6 @@
-import React from 'react';
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
 
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
-import appScreenShot from '../../../assets/app-screen-shot.jpg'
+import { APP_SCREENSHOT_FIRST } from 'contants';
 
 const features = [
   {
@@ -20,8 +19,7 @@ const features = [
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: ServerIcon,
   },
-]
-
+];
 
 const FeatureRight = () => {
   return (
@@ -51,7 +49,7 @@ const FeatureRight = () => {
           </div>
           <div className="flex items-start justify-end lg:order-first">
             <img
-              src={appScreenShot}
+              src={APP_SCREENSHOT_FIRST}
               alt="nearby App ScreenShot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               width={2432}

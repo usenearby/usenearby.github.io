@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "classnames": "^2.3.2",
-    "@heroicons/react": "^2.0.11"
+    "@heroicons/react": "^2.0.11",
+    "eslint-plugin-react": "^7.32.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "yarn": "^1.22.19",
+    "typescript": "^4.9.5",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "i18next": "^22.4.15",
+    "react-i18next": "^12.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +24,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "gen-tailwind-colors": "node ./tailwindCopyColors.ts",
+    "lint": "eslint --max-warnings=0 \"**/*.{ts,tsx}\""
   },
   "eslintConfig": {
     "extends": [
@@ -41,9 +48,16 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "npm": "^9.6.1",
     "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14",
     "tailwindcss": "^3.2.7",
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/line-clamp": "^0.4.4"
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.4",
+    "yarn-upgrade-all": "^0.7.2"
   }
 }

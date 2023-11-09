@@ -1,17 +1,43 @@
 import classNames from 'classnames';
 
+export type ButtonTypeName =
+  | 'primary'
+  | 'primaryReverse'
+  | 'secondary'
+  | 'primaryDark'
+  | 'red'
+  | 'secondaryText'
+  | 'overlayText'
+  | 'unStyled'
+  | 'light'
+  | 'transparent'
+  | 'gray'
+  | 'rose'
+  | 'magenta';
+export interface ButtonProps {
+  type: ButtonTypeName;
+  round?: boolean;
+  loading?: boolean;
+  noPointerEvents?: boolean;
+  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'icon';
+  htmlType?: 'button' | 'submit' | 'reset';
+  children?: React.ReactNode;
+  className?: string;
+  as?: React.ElementType;
+}
+
 const Button = ({
-   noPointerEvents = false,
-   children,
-   type,
-   htmlType = 'button',
-   as = 'button',
-   round = true,
-   loading = false,
-   className,
-   size = 'md',
-   ...props
- }) => {
+  noPointerEvents = false,
+  children,
+  type,
+  htmlType = 'button',
+  as = 'button',
+  round = true,
+  loading = false,
+  className,
+  size = 'md',
+  ...props
+}: ButtonProps) => {
   const CustomTag = as;
   let sizeClasses;
   let colorClasses;
@@ -118,4 +144,4 @@ const Button = ({
   );
 };
 
-export default Button
+export default Button;
