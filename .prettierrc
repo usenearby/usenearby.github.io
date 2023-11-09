@@ -1,0 +1,12 @@
+{
+  "printWidth": 120,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "quoteProps": "as-needed",
+  "importOrder": ["^react", "<THIRD_PARTY_MODULES>", "^routes", "^(components)/(.*)$", "^assets/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

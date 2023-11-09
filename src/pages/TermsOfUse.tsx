@@ -1,8 +1,8 @@
-import { Header, Footer } from "../components";
+import { Footer, Header } from 'components';
 
 const TermsOfUse = () => {
   return (
-    <>
+    <section>
       <Header />
       <main className="mx-auto max-w-7xl px-6 lg:px-8 py-24 text-base leading-7 text-gray-700">
         <div>
@@ -81,7 +81,7 @@ const TermsOfUse = () => {
         </div>
       </main>
       <Footer />
-    </>
+    </section>
   );
 };
 

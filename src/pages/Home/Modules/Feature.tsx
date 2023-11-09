@@ -1,10 +1,8 @@
-import React from 'react';
-
-import appScreenShot from '../../../assets/app-screen-shot.jpg'
-
 import classNames from 'classnames';
 
-const Feature = ({ order }) => {
+import { APP_SCREENSHOT_FIRST } from 'contants';
+
+const Feature = ({ order }: { order?: boolean }) => {
   return (
     <section className="overflow-hidden py-24 sm:py-32 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -30,7 +28,7 @@ const Feature = ({ order }) => {
           <div className={classNames({ 'lg:order-first': order }, 'flex items-start justify-end ')}>
             <img
               className="max-w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-              src={appScreenShot}
+              src={APP_SCREENSHOT_FIRST}
               alt="Nearby App"
             />
           </div>
