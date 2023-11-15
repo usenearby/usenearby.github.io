@@ -1,13 +1,12 @@
-import { Routes, Route } from 'react-router-dom';
-
-import Home from './pages/Home/Home';
-import HomeAlternative from './pages/Home/HomeAlternative';
-import TermsOfUse from './pages/TermsOfUse';
-import PrivacyPolicy from './pages/PrivacyPolicy';
+import { Route, Routes } from 'react-router-dom';
 
 import { HOME_ALTERNATIVE_ROUTE, HOME_ROUTE, PRIVACY_POLICY_ROUTE, TERMS_OF_USE_ROUTE } from 'routeKeys';
 
 import './i18n';
+import Home from './pages/Home/Home';
+import HomeAlternative from './pages/Home/HomeAlternative';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfUse from './pages/TermsOfUse';
 
 function App() {
   return (

@@ -1,10 +1,10 @@
 import { Footer } from 'components';
 
 import CenteredFeature from './Modules/CenteredFeature';
-import Hero from './Modules/Hero';
-import SmallCard from './Modules/SmallCard';
 import FeatureLeft from './Modules/FeatureLeft';
 import FeatureRight from './Modules/FeatureRight';
+import Hero from './Modules/Hero';
+import SmallCard from './Modules/SmallCard';
 
 const Home = () => {
   return (

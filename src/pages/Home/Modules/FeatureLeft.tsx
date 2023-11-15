@@ -1,6 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
-
-import { APP_SCREENSHOT_FIRST } from 'contants';
+import appScreenShot from 'assets/app-screen-shot-1.jpg';
 
 const features = [
   {
@@ -48,7 +47,7 @@ const FeatureLeft = () => {
             </div>
           </div>
           <img
-            src={APP_SCREENSHOT_FIRST}
+            src={appScreenShot}
             alt="nearby App ScreenShot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}

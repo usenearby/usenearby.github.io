@@ -82,6 +82,7 @@ module.exports = {
         55: '220px',
         62.5: '250px',
         75: '300px',
+        105: '420px',
         150: '600px',
         'clamp-sm': 'clamp(4px,7%,12px)',
         'clamp-base': 'clamp(6px,7%,12px)',
@@ -172,5 +173,4 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/forms')],
 };
