@@ -1,10 +1,8 @@
-import React from 'react';
-
-import { Button } from '../../../components';
+import { Button } from 'components';
 
 const SmallCard = () => {
   return (
-    <section className="bg-brandBlue">
+    <section className="bg-brandBlue-400">
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">

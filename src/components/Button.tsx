@@ -69,11 +69,11 @@ const Button = ({
 
   switch (type) {
     case 'primary':
-      colorClasses = 'text-white bg-brandBlue hover:bg-brandBlue/80 disabled:bg-gray-400';
+      colorClasses = 'text-white bg-brandBlue-400 hover:bg-brandBlue-400/80 disabled:bg-gray-400';
       break;
     case 'primaryReverse':
       colorClasses =
-        'text-brandBlue bg-white hover:bg-brandBlue/80 hover:text-white border border-brandBlue disabled:bg-gray-200 disabled:border-0 disabled:text-gray-500';
+        'text-brandBlue-400 bg-white hover:bg-brandBlue-400/80 hover:text-white border border-brandBlue-400 disabled:bg-gray-200 disabled:border-0 disabled:text-gray-500';
       break;
     case 'primaryDark':
       colorClasses = 'text-white bg-gray-700 hover:bg-gray-700/80';

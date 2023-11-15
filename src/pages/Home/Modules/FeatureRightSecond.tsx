@@ -1,5 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
-import appScreenShot from 'assets/app-screen-shot-2.jpg';
+import appScreenShot from 'assets/app-screen-shot-4.jpg';
 
 const features = [
   {

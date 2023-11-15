@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CenteredFeature = () => {
   return (
     <section className="bg-white pb-24 sm:pb-32">
